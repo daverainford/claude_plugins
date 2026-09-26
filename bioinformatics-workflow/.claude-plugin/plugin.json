@@ -1,0 +1,13 @@
+{
+  "name": "bioinformatics-workflow",
+  "version": "0.1.0",
+  "description": "Staged, reproducible cancer genomics analysis workflows (RNA, methylation, fragmentomics, DNA) on AWS Batch, with literature-grounded interpretation.",
+  "author": {
+    "name": "David"
+  },
+  "license": "MIT",
+  "dependencies": [
+    "aws-dev-toolkit",
+    "code-simplifier@claude-plugins-official"
+  ]
+}
