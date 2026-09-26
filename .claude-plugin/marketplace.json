@@ -1,0 +1,26 @@
+{
+  "name": "david-plugins",
+  "owner": {
+    "name": "David"
+  },
+  "allowCrossMarketplaceDependenciesOn": [
+    "claude-plugins-official"
+  ],
+  "plugins": [
+    {
+      "name": "bioinformatics-workflow",
+      "source": "./bioinformatics-workflow",
+      "description": "Staged, human-reviewed cancer genomics analysis (RNA, methylation, fragmentomics, DNA) on AWS Batch, with literature-grounded interpretation."
+    },
+    {
+      "name": "aws-dev-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aws-samples/sample-claude-code-plugins-for-startups.git",
+        "path": "plugins/aws-dev-toolkit"
+      },
+      "description": "Mirror of aws-samples' aws-dev-toolkit (CDK skills/agents). Deprecated upstream; included so bioinformatics-workflow installs in one step."
+    }
+  ],
+  "description": "David's personal Claude Code plugins."
+}
